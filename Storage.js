@@ -39,6 +39,8 @@ function set (entry) {
  * @param key
  */
 
+//Use param: null to get all objects
+
 function get (key) {
     return new Promise((resolve, reject) => {
         browser.storage.local.get(key).then((value) => {
