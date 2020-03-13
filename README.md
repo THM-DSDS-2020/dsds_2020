@@ -1,4 +1,44 @@
-# **Datenschutz und Datensicherheit 2020**
-*****
+# **Datasecurity and Privacy** 
+****
 
-**Work in Progress!**
+**WORK IN PROGRESS**
+
+
+## Description
+
+Short Description of the project
+
+### Prerequisites
+
+Any dependecies?
+* Firefox Version x?
+
+## Installation
+* todo
+
+## Software used
+* Frameworks used?
+
+## Development
+
+* todo
+* example cloning the repo
+
+## Versioning
+
+We used  [Github](https://github.com/) for versioning.
+
+## Authors
+
+* todo
+
+See also the list of [contibutions](https://github.com/THM-DSDS-2020/dsds_2020/pulse) and users who participated in this project.
+
+## License
+
+* License todo.
+
+## Acknowledgments
+
+* Hat tip to anyone whose code was used
+* todo
