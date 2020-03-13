@@ -31,13 +31,11 @@ set (entry) {
                 ).then(() => {
                     resolve();
                 }).catch(() => {
-                    reject("Something went wrong in set()-function");
+                    reject();
                 })
-            }else {
-                reject("JSON-Object is empty");
             }
         });
-    }
+    
 
 ```
 
@@ -49,7 +47,7 @@ get (key = null) {
             browser.storage.local.get(key).then((value) => {
                 resolve(value);
             }).catch(() => {
-                reject("Something went wrong in get()-function")
+                reject()
             });
         });
     }
@@ -60,11 +58,10 @@ get (key = null) {
 ```javascript
     deleteOne (key) {
         return new Promise((resolve, reject) => {
-            //if (key == null) reject("Gib einen Key an!");
             browser.storage.local.remove(key).then(() => {
                 resolve()
             }).catch(() => {
-                reject("Something went wrong in deleteOne()-function")
+                reject()
             })
         })
     }
@@ -78,10 +75,12 @@ deleteAll () {
             browser.storage.local.clear().then(() => {
                 resolve();
             }).catch(() => {
-                reject("Something went wrong in deleteAll()-function");
+                reject();
             });
         });
     }
 ```
 
 ## StoragePluginTest.js
+
+Javascript file for testing purposes of the storage area
