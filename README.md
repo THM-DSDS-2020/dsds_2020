@@ -1,44 +1,13 @@
-# **Datasecurity and Privacy** 
-****
+# **Datenschutz und Datensicherheit 2020**
+*****
 
-**WORK IN PROGRESS**
+**Work in Progress!**
 
 
-## Description
+Der `gui` brach,enthält alle vorzeitigen und finalen Entwürfe einer grafischen Oberfläche für unsere Anwendung. 
+Inhalt: 
 
-Short Description of the project
-
-### Prerequisites
-
-Any dependecies?
-* Firefox Version x?
-
-## Installation
-* todo
-
-## Software used
-* Frameworks used?
-
-## Development
-
-* todo
-* example cloning the repo
-
-## Versioning
-
-We used  [Github](https://github.com/) for versioning.
-
-## Authors
-
-* todo
-
-See also the list of [contibutions](https://github.com/THM-DSDS-2020/dsds_2020/pulse) and users who participated in this project.
-
-## License
-
-* License todo.
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* todo
+* **GUI_Entwurf_1.jpg**
+  * Eine gezichnete Darstellung eines GUI-Prototypen auf Papier
+* **mockup.jpg**
+  * Ein vertiefter Entwurf von GUI_Entwurf_1.jpg als Mockup dargestellt
