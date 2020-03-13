@@ -11,6 +11,11 @@ Inhalt:
   * Eine gezeichnete Darstellung eines GUI-Prototypen auf Papier
 * **mockup.jpg**
   * Ein vertiefter Entwurf von GUI_Entwurf_1.jpg als Mockup dargestellt
+* **Mockflow_Mockup**
+  * Importierte Daten des Mockups in Mockflow dargestellt
+  * Beinhaltet html, css, etc. 
+
+
 
 ****
 
