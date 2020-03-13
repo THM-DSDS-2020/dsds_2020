@@ -13,7 +13,7 @@ class StoragePluginTest {
     }
 
     /**
-     * Testing function set
+     * Testing method set
      * @return {Promise<void>}
      */
 
@@ -46,7 +46,7 @@ class StoragePluginTest {
     }
 
     /**
-     * Testing function get
+     * Testing method get
      * @return {Promise<void>}
      */
 
@@ -60,7 +60,30 @@ class StoragePluginTest {
     }
 
     /**
-     * Testing function deleteOne
+     * Testing update by set-method
+     * @return {Promise<void>}
+     */
+
+    async testUpdate() {
+        try {
+            var updateData = {
+                'web.de': {
+                    sources: [
+                        'google.de',
+                        'gmx.de',
+                        'facebook.de'
+                    ]
+                }
+            };
+            this.storage.set(updateData);
+            this.testGet();
+        }catch (e) {
+            console.error(e);
+        }
+    }
+
+    /**
+     * Testing method deleteOne
      * @return {Promise<void>}
      */
 
@@ -76,7 +99,7 @@ class StoragePluginTest {
     }
 
     /**
-     * Testing function deleteAll
+     * Testing method deleteAll
      * @return {Promise<void>}
      */
 
@@ -92,7 +115,7 @@ class StoragePluginTest {
     }
 
     /**
-     * Runs all test functions
+     * Runs all test method
      * @return {Promise<void>}
      */
 
@@ -100,6 +123,7 @@ class StoragePluginTest {
         try {
             await this.testSet();
             await this.testGet();
+            await this.testUpdate();
             await this.testDeleteOne();
             await this.testDeleteAll();
         }catch (e) {

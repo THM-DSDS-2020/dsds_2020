@@ -9,7 +9,7 @@ class StoragePlugin {
     constructor() {}
 
     /**
-     * Checking function for empty JSON-object
+     * Checking method for empty JSON-object
      * @param obj
      */
 
@@ -71,7 +71,7 @@ class StoragePlugin {
     }
 
     /**
-     * Function to delete all entrys in plugin-storage
+     * Method to delete all entrys in plugin-storage
      */
 
     deleteAll () {
