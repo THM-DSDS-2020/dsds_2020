@@ -83,4 +83,4 @@ deleteAll () {
 
 ## StoragePluginTest.js
 
-Javascript file for testing purposes of the storage area
+Javascript file for testing purposes of the storage area.
