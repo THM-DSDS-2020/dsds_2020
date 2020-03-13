@@ -13,14 +13,16 @@ Short Description of the project
 Any dependecies?
 * Firefox Version x?
 
+## Installation
+* todo
 
-
-
-## Built With
-
+## Software used
 * Frameworks used?
 
+## Development
 
+* todo
+* example cloning the repo
 
 ## Versioning
 
